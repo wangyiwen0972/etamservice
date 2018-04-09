@@ -1,0 +1,43 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run ios on emulator",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "ios",
+            "target": "emulator",
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Run android on emulator",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "android",
+            "target": "emulator",
+            "sourceMaps": true,
+            "cwd": "${workspaceRoot}"
+        },
+        {
+            "name": "Simulate android|ios in browser",
+            "type": "cordova",
+            "request": "launch",
+            "platform": "android",
+            "target": "chrome",
+            "simulatePort": 3000,
+            "livereload": true,
+            "cwd": "${workspaceRoot}",
+            "sourceMaps": false
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}\\index.js"
+        }
+    ]
+}

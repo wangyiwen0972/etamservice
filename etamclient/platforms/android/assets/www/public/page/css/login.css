@@ -1,0 +1,63 @@
+
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+/*---------login----------*/
+.login-box{
+    padding: 0.5rem 0.75rem;
+}
+.login-box h1{
+    font-size: 0.8rem;
+    color: #5e5e5e;
+    text-align: center;
+    line-height: 5rem;
+}
+.login-box input{
+    width: 100%;
+    height: 1.8rem;
+    background: transparent;
+    outline: none;
+    line-height: 1.8rem;
+    border: none;
+    border-bottom: 1px solid #f1f1f1;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    -webkit-box-sizing: border-box;
+    margin-bottom: 0.7rem;
+}
+.login-box .btn-line{line-height: 1.4rem}
+.login-box .tip{
+    font-size: 0.65rem;
+    color: #999999;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.login-box .tip a{color:#000000;text-decoration: underline}
+.login-box .login-link{
+    font-size: 0.65rem;
+    color: #1dc7b5;
+    margin-top: 2.5rem;
+}
+/*------------------register1----------------*/
+.reg1_btn{margin-top: 1.5rem}
+.reg1_box{
+    position: relative;
+    padding-right: 4.5rem;
+}
+.reg1_box .reg_code{
+    font-size: 0.7rem;
+    color: #4d4d4d;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #c2c2c2;
+    width: 3.5rem;
+    height: 1.6rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+.reg1_box .reg_code.on{
+    color: #aeaeae;
+    border-color: #d6d6d6
+}

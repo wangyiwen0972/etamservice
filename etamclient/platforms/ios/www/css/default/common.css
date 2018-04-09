@@ -1,0 +1,499 @@
+/* 覆盖的一些属性 --Silence */
+html, body {
+    background-color: #ffffff;
+    height: 100%;
+    font-family: "Microsoft YaHei",微软雅黑,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (min-width: 600px) {
+    .weui_tab_bd {
+        max-width: 414px;
+        margin: auto;
+    }
+}
+
+.content-padded {
+    padding: 15px;
+}
+
+.doc-head {
+    color: #3cc51f;
+    text-align: center;
+}
+
+.doc-head span {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.weui_panel_hd {
+    padding: 8px;
+}
+
+.weui_media_box.weui_media_appmsg .weui_media_hd {
+    width: 33%;
+    height: auto;
+    line-height: 0.5rem;
+}
+
+.weui_media_box {
+    padding: 5px;
+}
+
+.weui_media_box .weui_media_title {
+    white-space: normal;
+    font-size: 0.65rem;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-container img {
+    display: block;
+    width: 100%;
+}
+
+.weui-col-33 {
+    border-right: 1px solid #f1f1f1;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 0.7rem;
+    color: #9a9a9a;
+}
+
+.weui-col-33 p {
+    margin-bottom: 0.2rem;
+}
+
+.x-fs-080 {
+    font-size: 0.80rem;
+    color: #3ab6b4;
+}
+.weui_cell_hd i{
+    margin-right: 5px;
+}
+
+/*
+add dn  ==========常用查询==========================================
+*/
+/*.common-query{*/
+    /*display: none;*/
+/*}*/
+.display-guid,
+.common-query
+{
+    color: #333;
+}
+table{
+    border-collapse:collapse;
+}
+/*info list*/
+.dislay-code-table thead{
+    font-size: 0.8rem;
+}
+.dislay-code-table tbody{
+    font-size: 0.7rem;
+}
+/*info table*/
+.display-code-table-info{
+    width:95%;
+    margin:15px auto;
+}
+.display-code-table-info table{
+    width:100%;
+    table-layout: fixed;
+}
+.display-code-table-info>div{
+    font-size: 0.5rem;
+}
+/*.display-code-table-info table td{*/
+    /*width:20%;*/
+/*}*/
+.display-code-table-info table td{
+    text-align: center;
+}
+.display-code-table-info table td,.display-code-table-info table th{
+    border:2px solid #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+/*.display-code-table-info table td:first-child{*/
+    /*text-align: left;*/
+    /*padding-left: 3px;*/
+/*}*/
+.display-code-table-info > .inventory{
+    width: 83%;
+    overflow-x: scroll;
+}
+.display-code-scan{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    bottom: 0;
+    font-size: 0.8rem;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+.display-code-scan>div{
+    width: 120px;
+    border: 2px solid #E80076;
+    margin: 0 auto;
+    line-height: 40px;
+    background: transparent;
+    color: #E80076;
+    border-radius: 5px;
+}
+.padding-left{
+    padding-left: 6px;;
+}
+/*隔行变色*/
+#inventoryTable tbody tr:nth-child(2n),
+#salePanel tr:nth-child(2n),
+#inventoryColorTbody tr:nth-child(2n){
+    background-color:ghostwhite;
+}
+/*销售列表*/
+#saleTablePanel,
+#inventoryTablePanel,
+#inventoryTablePanel .query-sale-table,
+#inventoryTablePanel table{
+    width:100%;
+    border-collapse: collapse;
+}
+#inventoryTablePanel .query-sale-table{
+    overflow-x: scroll;
+}
+#saleTablePanel table thead,
+#inventoryColorThead,
+#inventoryTableThead{
+    background-color: #ddd;
+    color: #E80076;
+}
+/*
+==================  颜色table 和值table===========
+*/
+/*  颜色 table*/
+.inventory-color-valuek{
+    overflow: hidden;
+}
+/*.inventory-color-valuek>div{*/
+    /*border: 1px solid red;*/
+/*}*/
+/*.common-query-index{*/
+    /*margin-top: 50px;*/
+/*}*/
+.common-query-colork{
+    float: left;
+    width: 30%;
+    white-space: nowrap;
+}
+
+.common-query-valuek{
+    float: right;
+    width: 70%;
+    overflow-x: scroll;
+}
+
+.scan-logo-wz{
+    width: 85%;
+    margin: -2px auto;
+    color: #ccc;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+.sacn-discount-weuipanel:before {
+    border-top:0;
+}
+/*
+=====================================================ip6 p   ipad ================================================
+*/
+@media screen and (min-width: 372px) and (max-width: 415px){
+    /*常用查询*/
+    .dislay-code-table thead {
+        font-size: 0.9rem;
+    }
+    .dislay-code-table tbody {
+        font-size: 0.8rem;
+    }
+    .display-code-table-info>div,
+    .display-code-table-info table{
+        font-size: 0.7rem;
+    }
+    .display-code-scan>div {
+        width: 120px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 1rem;
+        background-color: #fff;
+        color: #E80076;
+        border-radius: 6px;
+        border: 2px solid #E80076;
+    }
+}
+/*
+===========================================================iPad=====================================
+*/
+@media screen and (min-width: 768px) {
+    /*查询*/
+    .dislay-code-table thead {
+        font-size: 1.4rem;
+    }
+    .dislay-code-table tbody {
+        font-size: 1.1rem;
+    }
+    .display-code-table-info>div {
+        font-size: 1rem;
+    }
+    .display-code-table-info table {
+        font-size: 1.2rem;
+    }
+    .display-code-scan {
+        /*height: 100px!important;*/
+        /*line-height: 85px!important;*/
+        font-size: 1.2rem!important;
+        /*border: 1px solid;*/
+    }
+    .display-code-scan>div {
+        width: 180px;
+        height: 180px;
+        border-radius: 90px;
+        line-height: 180px;
+    }
+}
+
+/*
+====================陈列向导 折扣查询==============================
+*/
+.cur-count-style{
+    font-size: 0.8rem;
+    color: #E80076;
+    font-weight: 600;
+}
+.display-guid{
+    width:100%;
+    /*border:1px solid;*/
+}
+.display-guid table{
+    table-layout: fixed;
+    border-collapse:collapse;
+    width:100%;
+}
+.display-guid-left-tab{
+    padding-top:41px;
+    width: 48px;
+    vertical-align: top;
+}
+.display-guid-left-tab>div{
+    height: 100px;
+    width:98%;
+    border: 0;
+    font-size: 0.6rem;
+}
+.discountList-left-in-div{
+    border: 1px solid #999999;
+    width:2.2rem;
+    height:inherit;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.discountList-left-in-div span{
+    display: block;
+    width: 1rem;
+    text-align: center;
+    padding: 12px;
+}
+
+.display-guid-right-tab td{
+    border: 1px solid #999999;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.display-guid-right-tab td{
+    height: 41px;
+}
+/*.display-guid-left-tab,*/
+/*.display-guid-right-tab{*/
+    /**/
+/*}*/
+.right-content{
+    vertical-align: top;
+}
+/*产品详情table*/
+.guide-product-info thead{
+    font-size: 0.7rem;
+}
+.guide-product-info tbody{
+    font-size: 0.3rem;
+}
+.discount-list-time{
+    padding: 5px 8px 5px 1px;font-size: 0.65rem;position: static;
+}
+#discountListItems:after{
+    border-bottom:0;
+}
+/*活动款式*/
+#activityDesignTitle{
+    padding: 5px 8px 0 1px;
+    font-size: 0.65rem;
+    position: static;
+}
+.activityDesignItem{
+    position: absolute;
+    top: 20px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*活动款式over*/
+.discount-list-time>span{
+    color: #E80076;
+}
+.discount-list-time span+span{
+    float: right;
+}
+.discount-list-items{
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*#productList>a{*/
+    /*height: 142px;*/
+/*}*/
+/*
+     =========== 点击高亮tab================================
+     */
+.active{
+    background-color: #E80076;
+    color: #fff;
+    border-color: #E80076!important;
+}
+.caption-item.active{
+    background:none;
+}
+
+/*
+========================================>320px 陈列向导【 > IP5】==============================================
+*/
+@media screen and (min-width: 322px) {
+    /*陈列向导*/
+    .display-guid-left-tab>div,
+    .display-guid-right-tab td,
+    .guide-product-info thead{
+        font-size: 0.8rem;
+    }
+    .guide-product-info tbody {
+        font-size: 0.7rem;
+    }
+    .display-guid-right-tab td {
+        height: 35px;
+    }
+    /*.display-guid-left-tab>div{*/
+        /*width: 39px;*/
+        /*padding-right: 15px;*/
+    /*}*/
+    .display-guid-left-tab {
+        padding-top: 68px;
+        width: 50px;
+    }
+    .display-code-scan {
+        height:auto;
+        font-size: 0.9rem;
+    }
+    .scan-logo-wz{
+        width: 86%;
+        font-size: 0.9rem;
+    }
+    .discount-list-items{
+        top: 60px;
+    }
+}
+/*
+=================================ipad============================
+*/
+@media screen and (min-width: 768px) {
+/*陈列向导*/
+.display-guid-right-tab td {
+    height: 85px!important;
+}
+.display-guid-right-tab td,
+.display-guid-left-tab>div {
+    font-size: 1rem!important;
+}
+.display-guid-left-tab>div {
+     /*width: 70px!important;*/
+     /*padding-right: 26px!important;*/
+     height: 190px!important;
+    line-height: 190px;
+ }
+.display-guid-left-tab {
+    padding-top: 83px!important;
+    width: 98px!important;
+    /* border: 1px solid; */
+}
+    .display-guid-left-tab>div,
+    .display-guid-right-tab td,
+    .guide-product-info thead {
+        font-size: 1.4rem;
+    }
+    .guide-product-info tbody {
+        font-size: 1rem;
+    }
+    .scan-logo-wz{
+        width: 88%;
+        font-size: 1.2rem;
+    }
+    .discount-list-items{
+        top: 130px;
+    }
+    .discount-list-time>span {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+.scan-logo-img{
+    width: 85%;
+    margin: 50px auto 0;
+}
+.scan-logo-img img{
+    width:100%;
+}
+/*js 标签样式*/
+.margin-left{
+    margin-right: 5px;
+}
+.weui-photo-browser-modal .caption {
+    top: 0.5rem;
+}
+
+.caption-item {
+    font-size: 25px;
+    line-height: 22px;
+}
+
+.caption-item span {
+    font-size: 16px;
+    padding: 10px;
+}
+
+#aa{
+    background-color:#000;
+}
+
+.photo_show{
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.caption-item .photo_show span{
+    padding: 0;
+    margin-right: 8px;
+}

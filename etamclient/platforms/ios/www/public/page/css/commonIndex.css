@@ -1,0 +1,500 @@
+
+.img-responsive{
+    min-width: 100%;
+}
+
+.weui_dialog, .weui_toast {
+    top: 5%;
+}
+
+.weui_dialog_hd {
+    padding: 1em 0 0;
+}
+
+a.weui_btn.weui_btn_primary.toProduct {
+    background-color: #e91e78;
+    font-size: 0.5rem;
+    letter-spacing: 0.05rem;
+}
+
+.weui_cell.weui_check_label {
+    padding: 0 15px;
+    height: 45px;
+    color: #000;
+}
+
+.weui_cells_checkbox .weui_check:checked + .weui_icon_checked:before {
+    color: #E80076;
+}
+
+/*.weui_dialog_ft .confirm span {*/
+    /*color: #fff;*/
+    /*background-color: #E80076;*/
+    /*font-size: 14px;*/
+    /*padding: 5px 20px;*/
+    /*border-radius: 8px;*/
+/*}*/
+
+/*.weui_btn_dialog.default {*/
+    /*text-align: left;*/
+/*}*/
+
+/*.weui_dialog_ft .default span {*/
+    /*color: #000;*/
+    /*background-color: #EEEEEE;*/
+    /*font-size: 14px;*/
+    /*padding: 5px 10px;*/
+    /*border-radius: 8px;*/
+/*}*/
+
+.weui_dialog_title {
+    font-weight: 700;
+}
+
+.toExit {
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 8px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 25px;
+    border: 2px solid #E80076;
+    color: #000;
+    letter-spacing: 3px;
+    width: 160px;
+}
+
+.weui_cell:before {
+    border: none;
+}
+/*弹框*/
+.weui_dialog.weui_dialog_visible {
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.weui_dialog_ft {
+    position: relative;
+    line-height: 24px;
+    font-size: 17px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    /*border: 1px solid;*/
+    width: 84%;
+    margin: 20px auto 0;
+}
+.weui_btn_dialog.default,
+.weui_dialog_ft a{
+   font-size: 14px;
+    border-radius: 15px;
+    /*border: 1px solid;*/
+    /* width: 100px!important; */
+}
+.weui_dialog_ft a{
+    background-color: #E80076;
+    color: white;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.weui_btn_dialog.default{
+    background-color: #ccc;
+    color: #000;
+}
+a.weui_btn.weui_btn_primary.DisplayAlertList{
+    background-color: #ccc;
+    height: 33px;
+    line-height: 33px;
+    font-size: 15px;
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+}
+a.weui_btn.weui_btn_primary.DisplayAlertListGL{
+    background-color:#E80076;
+    color:white;
+}
+.weui_dialog_ft:after{
+    border-top:0;
+}
+/*弹框over*/
+.weui_cells:before {
+    border: none;
+}
+
+.weui_cells:after {
+    border: none;
+}
+
+.weui_dialog .weui_btn_dialog + .weui_btn_dialog:after, .weui_toast .weui_btn_dialog + .weui_btn_dialog:after {
+    border: none;
+}
+
+/*.weui_dialog_ft:after {*/
+    /*border: none;*/
+/*}*/
+
+/*.weui_dialog_ft {*/
+    /*line-height: 70px;*/
+    /*margin-bottom: 15px;*/
+
+/*}*/
+
+.weui_btn.weui_btn_mini {
+    font-size: 0.75rem;
+    line-height: 1.8rem;
+    background-color: gray;
+}
+.weui_btn.weui_btn_mini.active {
+    background-color: #E80076;
+}
+/*add 标签内部*/
+.index-display-content{
+
+}
+.index-display-content .img-responsive{
+    width: 100%;
+}
+
+.index-display{
+    width: 250px;margin: auto;
+    padding-top: 40px;
+}
+.commonQuery-index-img{
+    padding-top: 100px;
+}
+.index-display img{
+    width: 100%;height: 100%;
+}
+#sdCodeForm{
+    /*padding: 5px;margin: 1rem 2.3rem;background-color: #D7D7D7;border-radius: 8px;*/
+}
+#sdCodeForm .weui_cell,
+#vCodeForm.weui_cell{
+    padding:0
+}
+#sdCodeForm .weui_input{
+    letter-spacing:0.05rem;height: 2.2rem;font-size: 0.9rem;font-weight: 700;
+}
+.padding-left{
+    padding-left: 5px;
+}
+#vCodeForm{
+    /*padding: 2px;margin: 1rem 2.3rem;background-color: #D7D7D7;border-radius: 8px;*/
+}
+#vCodeForm .weui_input{
+    letter-spacing:0.05rem;height: 1.8rem;font-size: 0.9rem;font-weight: 700;
+}
+.index-dispaly-btn{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #e91e78;
+    padding: 90px 36px 50px;
+}
+.index-dispaly-btn .toProduct{
+    display: inline-block;
+    margin: 10px;
+    padding: 60px 0 0;
+    border: 0;
+    background-size: 60px;
+    background-position-x: center;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+.index-dispaly-btn .toProduct.weui_btn:after{
+    border:0;
+}
+.index-dispaly-btn .toProduct.icon-star{
+    background-image: url(../images/icon-star.png);
+}
+.index-dispaly-btn .toProduct.icon-scan{
+    background-image: url(../images/icon-scan.png);
+}
+.index-dispaly-btn .toProduct.icon-percent{
+    background-image: url(../images/icon-percent.png);
+}
+.index-dispaly-btn .toProduct.icon-home{
+    background-image: url(../images/icon-home.png);
+}
+.index-dispaly-btn .index-form{
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+    padding: 0 40px;
+}
+.index-dispaly-btn .index-form .form-control{
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.1rem;
+    padding: 15px 0 15px 5px;
+    border: 2px solid #d72772;
+    border-radius: 10px;
+}
+.index-display-err{
+    margin: 0.5rem;text-align: center;color: #C13E3E;
+}
+.error-border {
+    border: 1px solid #C13E3E;
+}
+.discountList .right-content .discount-list-time>span:first-child + span {
+    color: #999999;
+}
+/*js 标签样式*/
+.margin-left{
+    margin-right: 5px;
+}
+
+#aa{
+    background-color:#000;
+}
+/*扫描*/
+.display-code-scan{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.8rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.display-code-scan>div{
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+    border: 1px solid;
+    margin: 0 auto;
+    line-height: 90px;
+    background-color: #E80076;
+    color: #fff;
+}
+
+/*
+====412px -414px===========================
+*/
+@media screen  and (min-width: 372px) and (max-width: 760px){
+    /*#sdCodeForm{*/
+        /*padding: 12px;*/
+    /*}*/
+    /*#vCodeForm{*/
+        /*padding: 6px;*/
+    /*}*/
+    #sdCodeForm .weui_input,
+    #vCodeForm .weui_input{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .display-code-scan>div{
+        width: 110px;
+        height: 110px;
+        border-radius: 55px;
+        line-height: 110px;
+        font-size: 1rem;
+    }
+    /*a.weui_btn.weui_btn_primary.toProduct{*/
+        /*font-size: 0.85rem;*/
+        /*letter-spacing: 0.2rem;*/
+    /*}*/
+
+}
+/*
+==========================ipad==================
+*/
+@media screen and (min-width: 768px) {
+    .display-code-scan {
+        height: 125px!important;
+        line-height: 85px!important;
+        font-size: 1.2rem!important;
+        /*border: 1px solid;*/
+    }
+    .display-code-scan>div {
+        width: 180px;
+        height: 180px;
+        border-radius: 90px;
+        line-height: 180px;
+        bottom: 97px;
+    }
+    .index-display {
+        width: 364px;
+        margin: auto;
+        padding-top: 60px;
+        /*border: 1px solid;*/
+    }
+    #sdCodeForm {
+        padding: 18px;
+        margin: 1rem 2.3rem;
+        background-color: #D7D7D7;
+        border-radius: 8px;
+        width: 72%;
+    }
+    #sdCodeForm .weui_input,
+    #vCodeForm .weui_input{
+        font-size: 1.4rem;
+    }
+    #vCodeForm {
+        padding: 12px;
+        margin: 1rem 2.3rem;
+        background-color: #D7D7D7;
+        border-radius: 8px;
+        width: 74%;
+    }
+    a.weui_btn.weui_btn_primary.toProduct {
+        /*background-color: #E80076;*/
+        font-size: 1rem;
+        letter-spacing: 0.15rem;
+    }
+    .toExit {
+        font-size: 1.2rem;
+        height: 60px;
+        line-height: 60px;
+        width: 200px;
+        border: 4px solid #E80076;
+    }
+}
+
+/*活动款式*/
+.activeDesign{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    /*border: 1px solid;*/
+    text-align: center;
+    background-color: #E80076;
+    color: white;
+}
+
+/*discount list*/
+
+.discount-list-barrier{
+    position: fixed;
+    width:100%;
+    top:0;
+    bottom:0;
+    background-color:#666;
+    z-index: 60;
+    opacity: 0.7;
+    right: 0;
+    display: none;
+}
+.discount-list-screeningtk{
+    width:70%;
+    position: fixed;
+    right:-80%;
+    top:0;
+    bottom:0;
+    z-index: 66;
+    /*border:1px solid;*/
+    background-color: white;
+}
+.discount-list-screening-data{
+    padding: 3px 5px;
+    border-bottom: 1px solid #eee;
+}
+.discount-list-screening-title{
+    width:100%;
+    min-height:35px;
+    overflow: hidden;
+
+    /*border:1px solid;*/
+}
+.discount-list-screening-title-left{
+    color: #676767;
+    font-size: 0.7rem;
+    height:32px;
+    line-height: 32px;
+}
+.discount-list-screening-title-left:after{
+    content: ' ';
+    float: right;
+    display: inline-block;
+    background: url(../images/icon-toggle-extend.png) no-repeat;
+    transform:rotate(180deg);
+    width: 30px;
+    height: 10px;
+    margin: 10px 5px;
+}
+.discount-list-screening-data._active .discount-list-screening-title-left:after{
+    background: url(../images/icon-toggle.png) no-repeat;
+    transform:rotate(0deg);
+}
+.discount-list-screening-title-right{
+    background-size: 100%;
+    width: 16px;
+    /*border: 1px solid;*/
+    height: 30px;
+}
+
+.discount-list-screening-body-data{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    /*border: 1px solid;*/
+    display: none;
+}
+.discount-list-screening-data._active .discount-list-screening-body-data{
+    display: block;
+}
+
+.discount-list-screening-bottom{
+    width: 93%;
+    /* border: 1px solid; */
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    padding-left: 8px;
+}
+
+.discount-list-screening-bottom>div{
+    line-height: 40px;
+    width: 47%;
+    height: 40px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #E80076;
+    text-align: center;
+}
+.discount-list-screening-reset{
+    background-color: #D7D7D7;
+    border: 2px solid #D7D7D7;
+    float:left;
+}
+
+.discount-list-screening-complete{
+    border: 2px solid #E80076;
+    background-color: white;
+    float:right;
+}
+
+.discount-list-screening-body-data .weui-row .weui-col-33 {
+    background-color: #fff;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 0.7rem;
+    color: #9a9a9a;
+    border-bottom: 1px solid #ccc;
+    border-right: 0;
+    border-top: 0;
+    height: 30px;
+    border-radius: 0px;
+    line-height: 30px;
+    width: 100%;
+}
+.discount-list-screening-body-data .weui-row .weui-col-33:first-child {
+    border-top: 1px solid #ccc;
+}
+.discount-list-screening-body-data .weui-row .weui-col-33._active{
+    background-color: #E80076!important;
+    color: #fff!important;
+    border-color: #E80076!important;
+}

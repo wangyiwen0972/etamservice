@@ -1,0 +1,10 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "艾格服务",
+  "short_name": "艾格服务",
+  "version": "io.etam.etamservice",
+  "author": "IT Team",
+  "icons": [],
+  "start_url": "http://192.168.3.160:8001/view/index"
+}
